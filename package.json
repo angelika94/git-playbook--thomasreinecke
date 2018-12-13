@@ -18,7 +18,9 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",

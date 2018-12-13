@@ -1,3 +1,9 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/git-playbook--thomasreinecke/'
+  }
+} : {}
+
 module.exports = {
   /*
   ** Headers of the page
@@ -38,6 +44,7 @@ module.exports = {
       }
     }
   },
+  ...routerBase,
   plugins: [
     {src: '~/src/plugins/routes.js'},
     {src: '~/src/plugins/components.js'},
