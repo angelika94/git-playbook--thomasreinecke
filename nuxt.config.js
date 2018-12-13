@@ -46,13 +46,13 @@ module.exports = {
   },
   ...routerBase,
   plugins: [
-    {src: '~/src/plugins/routes.js'},
-    {src: '~/src/plugins/components.js'},
-    {src: '~/src/plugins/filters.js'},
-    {src: '~/src/plugins/vue-tree-navigation', ssr: false}
+    {src: '~/plugins/routes.js'},
+    {src: '~/plugins/components.js'},
+    {src: '~/plugins/filters.js'},
+    {src: '~/plugins/vue-tree-navigation', ssr: false}
   ],
   css: [
-    { src: '~/src/assets/scss/main.scss', lang: 'sass' },
+    { src: '~/assets/scss/main.scss', lang: 'sass' },
   ]
 }
 

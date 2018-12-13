@@ -8,7 +8,7 @@
   ],
   "landingPage": "/playbook",
   "topics": [
-  	"news"
+    "news"
   ],
   "pages": [
     {
@@ -74,7 +74,7 @@
             }
           ]
         }
-      ]      
+      ]
     }
   ]
 }

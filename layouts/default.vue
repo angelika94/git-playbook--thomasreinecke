@@ -11,9 +11,9 @@
   </div>
 </template>
 <script>
-  import AppHeader from '~/components/Header'
-  import Navigation from '~/components/Navigation'
-  import Breadcrumb from '~/components/Breadcrumb'
+  import AppHeader from '../components/Header'
+  import Navigation from '../components/Navigation'
+  import Breadcrumb from '../components/Breadcrumb'
 
   export default {
     components: {

@@ -1,15 +1,14 @@
 <template>
   <div>
-    <Cards :tiles="tiles"></Cards>
+    <!--<Cards :tiles="tiles"></Cards>-->
     <div class="content">
       sdf
     </div>
   </div>
-
 </template>
 
 <script>
-  import ConfigManager from '~/src/services/configManager'
+  import ConfigManager from '~/services/configManager'
   import Cards from '~/components/Cards'
 
   export default {

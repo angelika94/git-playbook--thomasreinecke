@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Cards :tiles="tiles"></Cards>
+    <!--<Cards :tiles="tiles"></Cards>-->
 
     <div class="content">
       Process Documentation
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-  import ConfigManager from '~/src/services/configManager'
+  import ConfigManager from '~/services/configManager'
   import Cards from '~/components/Cards'
 
   export default {

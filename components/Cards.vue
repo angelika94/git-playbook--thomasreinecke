@@ -20,13 +20,13 @@
     name: 'Cards',
     props: {
       tiles: Array,
-      bgColor: String
-    }
+      bgColor: String,
+    },
   }
 </script>
 
 <style lang="scss">
-  @import '../src/assets/scss/colors';
+  @import '../assets/scss/colors';
 
   .cards {
     display: flex;

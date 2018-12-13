@@ -17,7 +17,7 @@
 </template>
 
 <script>
-  import ConfigManager from '../src/services/configManager'
+  import ConfigManager from '../services/configManager'
 
   export default {
     data() {
@@ -84,7 +84,7 @@
   };
 </script>
 <style lang="scss">
-  @import '../src/assets/scss/colors';
+  @import '../assets/scss/colors';
 
   div.TreeNavigation {
     width: 100%;

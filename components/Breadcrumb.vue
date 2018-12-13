@@ -12,7 +12,7 @@
 </template>
 
 <script>
-  import ConfigManager from '~/src/services/configManager'
+  import ConfigManager from '../services/configManager'
   export default {
     name: 'Breadcrumb',
     data () {
